@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    
+	     type = "text/javascript" src = "app.js"
+    </head>
+    <body>
+     <form oninput="out.value=(parseFloat(a.value.replace(',', '.'))*parseFloat(h.value.replace(',', '.')))/2">
+	<p>¬ведите коэфициенты: <input type="text" name="a" size="4" value=""> x?
+	<input type="text" name="b" size="4" value=""> x 
+	<input type="text" name="c" size="4" value=""> = 0</p>
+	<p>дискриминант =: <output name="out">0</output> </p>
+	<p><input type="button" onclick="out.value=b**2 - 4*a*c" value="вычислить"></p>
+	let d = ;
+	<p><output type = "number" id = "d" size = "4" value=""></p>
+	
+	
+</form> 
+    </body>
+</html>
